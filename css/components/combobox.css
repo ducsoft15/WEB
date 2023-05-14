@@ -1,0 +1,71 @@
+.label__title {
+    margin-bottom: 8px;
+    display: block;
+    font-size: 14px;
+    font-family: RobotoMedium;
+    color: #1f1f1f;
+    font-weight: 500;
+}
+
+.combox {
+    width: 200px;
+}
+
+.list__container ul {
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(23, 27, 42, 0.24);
+    padding: 8px 8px 8px 16px;
+    border-radius: 4px;
+    max-height: 308px;
+    overflow: hidden scroll;
+}
+
+.list__container ul::-webkit-scrollbar-track {
+    display: none;
+}
+
+.list__container ul::-webkit-scrollbar {
+    width: 8px;
+    height: 12px;
+    background-color: transparent;
+}
+
+.list__container ul::-webkit-scrollbar-thumb {
+    background-color: #9E9E9E;
+    border-radius: 4px;
+
+}
+
+.list__container ul::-webkit-scrollbar-button {
+    height: 100px;
+}
+
+.list__item {
+    list-style: none;
+    width: 100%;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list__item:hover {
+    background-color: rgba(80, 184, 60, 0.1);
+}
+
+.list__item:first-child {
+    color: #50B83C;
+}
+
+.list__item--selected {
+    background-color: rgba(80, 184, 60, 0.1);
+}
+
+.input__combobox {
+    border: 1px solid #50B83C;
+}

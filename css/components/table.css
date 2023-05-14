@@ -1,0 +1,117 @@
+table, th, td {
+    border: none;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+
+.table__head {
+    background-color: #eeeeee;
+}
+
+.table__head th .head__icon {
+    margin-left: 4px;
+}
+
+.table__head th {
+    text-align: left;
+}
+
+.table__head th .head__icon i {
+    font-size: 10px;
+}
+
+.table__head th .head__title, .head__icon {
+    display: inline-flex;
+}
+
+.table__body tr, .table__head tr {
+    height: 48px;
+    border: 1px solid #E0E0E0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.table__body tr:last-child {
+    border-bottom: none;
+}
+
+.table__body tr:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.table__body .btn__checkbox #ckbox {
+    width: 24px;
+    height: 24px;
+}
+
+
+.table__body .order {
+    margin-right: 16px;
+}
+
+.column__p16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.column__icon {
+    padding-left: 16px;
+}
+
+.ckbox__label {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #F2F2F2;
+}
+
+.checkbox {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    color: #363839;
+    border: 2px solid #bdc1c6;
+    border-radius: 4px;
+    appearance: none;
+    outline: 0;
+    cursor: pointer;
+    transition: all 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+}
+
+.checkbox::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 1px;
+    left: 6px;
+    width: 7px;
+    height: 13px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+.checkbox:checked {
+    color: #fff;
+    border-color: #50B83C;
+    background: #50B83C;
+
+}
+
+.checkbox:checked::before {
+    opacity: 1;
+}
+
+.table__body .row--selected {
+    background-color: rgba(80, 184, 60, 0.1);
+}

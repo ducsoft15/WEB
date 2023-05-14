@@ -1,0 +1,75 @@
+#label-month {
+    font-size: 13px;
+    color: #000;
+}
+
+.input__container {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    position: relative;
+    max-width: 200px;
+}
+
+.input-text {
+    border: 1px solid #bbb;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin-top: 4px;
+}
+
+.input-text::placeholder {
+    font: 11px GoogleSansRegular;
+    color: #bbb;
+}
+
+.input-container {
+    max-width: 100px;
+}
+
+.label__text {
+    font-size: 13px;
+    color: #000;
+    padding-bottom: 4px;
+    display: block;
+}
+
+.input__text {
+    width: 260px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 14px;
+    font-family: RobotoRegular;
+    color: #000;
+    padding-left: 12px;
+}
+
+.input__text::placeholder {
+    font-size: 14px;
+    color: #bbb;
+    font-family: RobotoRegular;
+}
+
+.input__text:focus {
+    border: 1px solid #019160;
+    outline: none;
+}
+
+.input__text--error {
+    border-color: #ff4747;
+}
+
+.input__icon {
+    font-size: 16px;
+    margin: 0 8px 0 16px;
+}
+
+.icon__search {
+    background-image: url(../../assets/icon/search.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    transform: translateY(29px);
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISA_CUKCUK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="row">
+        <label for=""> Button</label>
+        <div class="container">
+            <button class="button btn__submit">
+                Nộp hồ sơ
+            </button>
+            <button class="button btn__sub">
+                Nộp hồ sơ
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <label for=""> Button Icon</label>
+        <div class="container">
+            <button class="button btn__create">
+                <div class="button__icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                Lập hồ sơ
+            </button>
+        </div>
+        <div class="container">
+            <button class="button btn__save">
+                <div class="btn__save--left">
+                    <div class="button__icon">
+                        <i class="fa-regular fa-floppy-disk"></i>
+                    </div>
+                    <p>Lưu và thêm mới</p>
+                </div>
+                <div class="btn__save--right">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <label for=""> COMBO BOX</label>
+        <div class="container">
+            <label for="city" class="label__title">Chọn tỉnh</label>
+            <div class="combox">
+                <div class="input__container">
+                    <input type="text" id="city" class="input__text input__combobox" placeholder="Type here" />
+                    <div class="button__combobox">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="list__container">
+                    <ul>
+                        <li class="list__item ">
+                            - Chọn giá trị -
+                        </li>
+                        <li class="list__item list__item--selected">Hà Nội</li>
+                        <li class="list__item">TP. Hồ Chí Minh</li>
+                        <li class="list__item">Đà Nẵng</li>
+                        <li class="list__item">Hải Phòng</li>
+                        <li class="list__item ">Hải Dương</li>
+                        <li class="list__item ">Thanh Hóa</li>
+                        <li class="list__item ">Cần Thơ</li>
+                        <li class="list__item ">Bắc Giang</li>
+                        <li class="list__item ">Nam Định</li>
+                        <li class="list__item ">Hưng Yên</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <label for="">FIELD INPUT</label>
+        <br>
+        <div class="container">
+            <label for="input" class="label__text">Label</label>
+            <input id="input" class="input__text " placeholder="Tìm kiếm theo tên, số hồ sơ"></input>
+        </div>
+    </div>
+    <div class="row">
+        <label for="">INPUT ICON</label>
+        <br>
+        <div class="container">
+            <div class="input__search">
+                <div class="input__icon icon__search">
+                </div>
+                <input id="input" style="padding-left:40px" class="input__text "
+                    placeholder="Tìm kiếm theo tên, số hồ sơ"></input>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <label for="">TOAST MESSENGER</label>
+        <br>
+        <div class="container toast__container">
+            <div class="toast__messenger">
+                <div class=" toast__icon--circle icon__circle--error toast--error">
+                    <i class="toast__icon fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <div class="toast__text">
+                    Nội dung đi kèm tiêu đề
+                </div>
+                <div class="toast__icon--close toast--error">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="toast__messenger">
+                <div class=" toast__icon--circle icon__circle--warning toast--warning">
+                    <i class="toast__icon fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <div class="toast__text">
+                    Nội dung đi kèm tiêu đề
+                </div>
+                <div class="toast__icon--close toast--warning">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="toast__messenger">
+                <div class=" toast__icon--circle icon__circle--notice toast--notice">
+                    <i class="toast__icon fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <div class="toast__text">
+                    Nội dung đi kèm tiêu đề
+                </div>
+                <div class="toast__icon--close toast--notice">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="toast__messenger">
+                <div class=" toast__icon--circle icon__circle--success toast--success">
+                    <i class="toast__icon fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <div class="toast__text">
+                    Nội dung đi kèm tiêu đề
+                </div>
+                <div class="toast__icon--close toast--success">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <label for="">TABLE AND PAVIGATION</label>
+        <div class="container">
+            <table>
+                <thead class="table__head">
+                    <tr>
+                        <th></th>
+                        <th class="column__p16">#</th>
+                        <th>
+                            <p class="head__title">Mã nhân viên</p>
+                            <p class="head__icon">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </p>
+                        </th>
+                        <th class="column__p16">
+                            <p class="head__title">Họ và Tên</p>
+                            <p class="head__icon"></p>
+                        </th>
+                        <th class="column__p16">
+                            <p class="head__title">Ví trị/Chức vụ</p>
+                            <p class="head__icon"></p>
+                        </th>
+                        <th class="column__p16">
+                            <p class="head__title">Bộ phận/Phòng ban</p>
+                            <p class="head__icon"></p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                    <tr class="row--selected">
+                        <td class="btn__checkbox column__icon">
+                            <input type="checkbox" checked class="checkbox" name="chkbox" id="ckbox">
+                        </td>
+                        <td class="order column__p16">
+                            1
+                        </td>
+                        <td class="employee__id">
+                            512200202
+                        </td>
+                        <td class="employee__name column__p16">
+                            Hoàng Minh Đức
+                        </td>
+                        <td class="employee__job column__p16">
+                            Fresher Web
+                        </td>
+                        <td class="employee__department column__p16">
+                            Khối sản xuất
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="btn__checkbox column__icon ">
+                            <input type="checkbox" class="checkbox" name="chkbox" id="ckbox">
+                        </td>
+                        <td class="order column__p16">
+                            1
+                        </td>
+                        <td class="employee__id">
+                            512200202
+                        </td>
+                        <td class="employee__name column__p16">
+                            Hoàng Minh Đức
+                        </td>
+                        <td class="employee__job column__p16">
+                            Fresher Web
+                        </td>
+                        <td class="employee__department column__p16">
+                            Khối sản xuất
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="btn__checkbox column__icon">
+                            <input type="checkbox" class="checkbox" name="chkbox" id="ckbox">
+                        </td>
+                        <td class="order column__p16">
+                            1
+                        </td>
+                        <td class="employee__id">
+                            512200202
+                        </td>
+                        <td class="employee__name column__p16">
+                            Hoàng Minh Đức
+                        </td>
+                        <td class="employee__job column__p16">
+                            Fresher Web
+                        </td>
+                        <td class="employee__department column__p16">
+                            Khối sản xuất
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <label for="">POP-UP</label>
+        <div class="container">
+            <div class="popup popup--success">
+                <div class="popup__icon ">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class=" popup__message">Thành Công!</div>
+                <div class="popup__text">Công việc đã bị xóa.</div>
+                <div class="popup__text--underline">
+                    Hoàn tác
+                </div>
+                <div class="popup__icon--close">
+                    <img src="./assets/icon/close_popup.png" alt="icon_close">
+                </div>
+            </div>
+            <div class="popup popup--error">
+                <div class="popup__icon ">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class=" popup__message">Thành Công!</div>
+                <div class="popup__text">Công việc đã bị xóa.</div>
+                <div class="popup__text--underline">
+                    Hoàn tác
+                </div>
+                <div class="popup__icon--close">
+                    <img src="./assets/icon/close_popup.png" alt="icon_close">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <label for="">DIALOG NOTICE</label>
+        <div class="container">
+            <div class="dialog">
+                <div class="dialog__title">
+                    Xóa người dùng
+                    <div class="dialog__button--close">
+                        <img src="./assets/icon/close_popup.png" alt="icon_close">
+                    </div>
+                </div>
+                <div class="dialog__content">
+                    Bạn có chắc muốn xóa người dùng đã chọn không
+                </div>
+                <div class="dialog__button">
+                    <button class="dialog__button--sub">Không</button>
+                    <button class="dialog__button--main button--delete">Có, xóa người dùng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <label for="">FORM</label>
+        <div class="container">
+            <form class="form__container form__signup">
+                <p class="form__title">Đăng ký tài khoản</p>
+                <div class="form__group">
+                    <label for="name" class="label__form">Họ và Tên</label>
+                    <input value="" type="text" id="name" name="name" class="form__name input__text"
+                        placeholder="Họ tên đầy đủ">
+                </div>
+                <div class="form__group">
+                    <labels class="label__form">Giới tính</labels>
+                    <label for="male" class="label__form--item">
+                        <input type="radio" required name="gender" id="male" value="male" />
+                        <span>Nam</span>
+                    </label>
+                    <label for="female" class="label__form--item">
+                        <input type="radio" required name="gender" id="female" value="female" />
+                        <span>Nữ</span>
+                    </label>
+                </div>
+                <div class="form__group">
+                    <label for="birthday" class="label__form">Ngày sinh</label>
+                    <input value="" type="text" id="birthday" name="birthday" class="form__birthday input__text"
+                        placeholder="dd/mm/yyyy">
+                </div>
+                <div class="form__group mb32">
+                    <label for="email" class="label__form">Địa chỉ email</label>
+                    <input value="" type="email" id="email" name="email" class="form__name input__text"
+                        placeholder="example@email.com">
+                </div>
+                <div class="form__button--container">
+                    <button class="button__form button--sub">Hủy</button>
+                    <button class="button__form button--main">Đăng ký</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./js/app.js">
+</script>
+
+</html>

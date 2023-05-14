@@ -1,0 +1,67 @@
+.form__container {
+    width: 324px;
+    height: 528px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.078);
+    padding: 32px;
+}
+
+.form__title {
+    font-family: RobotoBold;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    color: #1f1f1f;
+    margin-bottom: 29px;
+}
+
+.form__group {
+    margin-bottom: 24px;
+}
+
+.mb32 {
+    margin-bottom: 32px;
+}
+
+.label__form {
+    font-family: RobotoMedium;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    color: #1f1f1f;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.label__form--item {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+
+.label__form--item input {
+    width: 20px;
+    height: 20px;
+
+}
+
+.label__form--item input:checked {
+    background-color: #fd656b;
+}
+
+.label__form--item span {
+    font-family: RobotoRegular;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: #1f1f1f;
+    margin-left: 8px;
+}
+
+.form__button--container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 12px;
+}

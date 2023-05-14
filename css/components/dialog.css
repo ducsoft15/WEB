@@ -1,0 +1,84 @@
+.dialog {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 22px;
+    width: 400px;
+    height: 191px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.078);
+}
+
+.dialog__title {
+    font-family: RobotoBold;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    gap: 0 187px;
+    white-space: nowrap;
+}
+
+.dialog__button--close {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dialog__content {
+    margin-top: 24px;
+    font-family: RobotoRegular;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: #1f1f1f;
+}
+
+.dialog__button {
+    margin-top: 22px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 8px;
+}
+
+.dialog__button--sub {
+    width: 80px;
+    height: 36px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 36px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #212121;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.dialog__button--main {
+    width: 152px;
+    height: 36px;
+    border-radius: 4px;
+    font-family: RobotoRegular;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+    border: none;
+}
+
+.button--notice {
+    background-color: #50B83C;
+}
+
+.button--delete {
+    background-color: #E81E1E;
+}
